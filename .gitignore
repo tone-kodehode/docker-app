@@ -1,0 +1,23 @@
+# Ignore the following files
+output.log  # log file
+logs/       # directory for log files
+textfile.txt
+.env 
+.log
+
+
+# Exclude temporary files
+*.tmp
+*.log
+
+# Ignore Node.js modules and their dependencies
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore .DS_Store
+*.DS_Store
+.DS_Store
+/DS_Store
+        

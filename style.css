@@ -1,0 +1,83 @@
+
+:root {
+    --blue: #04537d;
+    --bluetint: #81a9be;
+    --dark: #00080c;
+    --white: #ffffff;
+    --grey: #ececec;
+    --tintDark: #011119;
+    --green: #008979;
+}
+
+body {
+    max-height: 100vh;
+    background-color: var(--grey);
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+}
+
+
+.container {
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: auto;
+    width: 500px;
+    padding: 40px;
+    /* border: 10px solid pink;   */
+}
+
+.button {
+    width: 160px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+   
+}
+
+img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+h3 {
+    display: inline-block;
+    
+}
+
+#container {
+    display: none;
+}
+
+#container-edit {
+    display: none;
+}   
+
+#container-edit input {
+    box-sizing: border-box;
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+    border: none;
+} 
+
+
+#container-edit {
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: auto;
+    width: 500px;
+    padding: 40px;
+}
+
+#container-edit input {
+    width: 195px;
+    font-size: 15px;
+}
