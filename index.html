@@ -1,42 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    </style>
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
     <script src="index.js" defer></script>
     <title>User profile</title>
 </head>
 <body>
-    
 
+    <div class="container" id="container">
+        <h1>User profile</h1>
+        <img src="profile-picture" alt="user-profile"> <br>
+        <span>Name: </span><h3 id="name">Olivia Wilson</h3>
+        <br />
+        <span>Email: </span><h3 id="email">olivia.wilson@example.com</h3>
+        <br>
+        <span>Interests: </span><h3 id="interests">Kayaking</h3>
+        <br />
+        <button class="button" onclick="updateProfile()">Edit Profile</button>
+    </div>   
 
-
-
-
-    <!-- https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/master?ref_type=heads -->
-    <!-- 1.11.39  https://www.youtube.com/watch?v=3c-iBn73dDE&list=PLWNv0tKc0IqT5kbs2YebJ_e4kq9J_GZBA&index=2 -->
-
-
-        <div class="container" id="container">
-            <h1>User profile</h1>
-            <img src="profile-picture" alt="user-profile"> <br>
-            <span>Name: </span><h3 id="name">Olivia Wilson</h3>
-            <br />
-            <span>Email: </span><h3 id="email">olivia.wilson@example.com</h3>
-            <br>
-            <span>Interests: </span><h3 id="interests">Kayaking</h3>
-            <br />
-            <button class="button" onclick="updateProfile()">Edit Profile</button>
-        </div>
-
-       
-    </section>
-    
     <div class="container" id="container-edit">
         <h1>User profile</h1>
         <img src="profile-picture" alt="user-profile"> <br>
@@ -48,6 +36,5 @@
         <br />
         <button class="button" onclick="handleUpdateProfileRequest()">Update Profile</button>
     </div>
-
 </body>
 </html>
